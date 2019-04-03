@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import DogsListContainer from './components/DogsListContainer';
 import DogBreedImages from './components/DogBreedImages'
+import DogBreedImagesContainer from './components/DogBreedImagesContainer'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <main>
           <Route exact path="/" component={DogsListContainer} />
           <Route path="/dog-breeds/:breed" component={DogBreedImages}/>
+          <Route path="/dog-breeds/:breed" component={DogBreedImagesContainer}/>
         </main>
       </div>
     )
