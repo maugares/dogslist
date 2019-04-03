@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import DogsList from './components/DogsList'
+// import DogsList from './components/DogsList'
+import DogsListContainer from './components/DogsListContainer';
 
 class App extends Component {
   render() {
@@ -12,7 +13,7 @@ class App extends Component {
           <h1>Dogs List</h1>
         </header>
         <main>
-          <DogsList />
+          <DogsListContainer />
         </main>
       </div>
     );
