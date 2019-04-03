@@ -8,3 +8,9 @@
 .dog-breed-images * {
   padding: 20px;
 }
+
+.dog-images * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

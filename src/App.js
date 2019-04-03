@@ -15,7 +15,6 @@ class App extends Component {
         </header>
         <main>
           <Route exact path="/" component={DogsListContainer} />
-          <Route path="/dog-breeds/:breed" component={DogBreedImages}/>
           <Route path="/dog-breeds/:breed" component={DogBreedImagesContainer}/>
         </main>
       </div>
