@@ -1,0 +1,16 @@
+div {
+  background-color: #282c34;
+  color: white;
+}
+
+ul {
+  height: 70vmin;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+ul * {
+  display: flex;
+  justify-content: center;
+}
