@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom'
 import logo from './logo.svg';
 import './App.css';
-// import DogsList from './components/DogsList'
 import DogsListContainer from './components/DogsListContainer';
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
           <h1>Dogs List</h1>
         </header>
         <main>
-          <DogsListContainer />
+          <Route exact path="/" component={DogsListContainer} />
         </main>
       </div>
     );
