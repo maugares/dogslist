@@ -1,0 +1,10 @@
+.dog-breed-images{
+  height: 70vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dog-breed-images * {
+  padding: 20px;
+}

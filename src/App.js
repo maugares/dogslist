@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom'
 import logo from './logo.svg';
 import './App.css';
 import DogsListContainer from './components/DogsListContainer';
+import DogBreedImages from './components/DogBreedImages'
 
 class App extends Component {
   render() {
@@ -10,13 +11,13 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>Dogs List</h1>
         </header>
         <main>
           <Route exact path="/" component={DogsListContainer} />
+          <Route path="/dog-breeds/:breed" component={DogBreedImages}/>
         </main>
       </div>
-    );
+    )
   }
 }
 
